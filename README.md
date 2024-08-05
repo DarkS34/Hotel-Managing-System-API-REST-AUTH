@@ -36,6 +36,3 @@ This project is a RESTful API built using Node.js and MongoDB, providing endpoin
 | **POST** | /api/v1/users/:userId/book/:accommodationId | Book a specific accommodation. Can only be performed by an **authorized user**. |
 | **PUT** | /api/v1/users/:id | Update a user by ID. Can be performed by the **same user** or an **admin**. |
 | **DELETE** | /api/v1/users/:id | Delete a user by ID. Can be performed by the **same user** or an **admin**. |
-
-## Seed
-The seed only generates new Hotels.
